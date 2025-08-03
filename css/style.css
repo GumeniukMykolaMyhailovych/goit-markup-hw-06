@@ -470,16 +470,13 @@ a {
     background-color: #31D0AA;
 }
 
-.icon-soc-link {
-    fill: #f4f4fd;
+.icon-soc-link {fill: #f4f4fd;
 }
-
 
 .icon-box {
     display: flex;
     border: solid 1px;
     border-radius: 4px;
-    color: #8E8F99;
     width: 264px;
     height: 112px;
     background-color: #F4F4FD;
