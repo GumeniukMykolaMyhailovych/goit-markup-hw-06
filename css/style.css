@@ -102,7 +102,6 @@ a {
 }
 
 .head-bckgr {
-
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -115,6 +114,13 @@ a {
     background-position: center;
     background-size: cover;
 }
+
+.container-image {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px; }
 
 .nav-list {
     font-weight: 500;
