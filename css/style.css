@@ -102,6 +102,7 @@ a {
 }
 
 .head-bckgr {
+
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -114,13 +115,6 @@ a {
     background-position: center;
     background-size: cover;
 }
-
-.container-image {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 8px; }
 
 .nav-list {
     font-weight: 500;
@@ -401,6 +395,7 @@ a {
 .portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
+
 }
 
 .portfolio {
@@ -453,9 +448,12 @@ a {
 
 }
 
-.soc-link-open:hover,
-.soc-link-open:focus {
+.soc-link-open:hover {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.soc-link-open:focus {
     background-color: #404bbf;
 }
 
