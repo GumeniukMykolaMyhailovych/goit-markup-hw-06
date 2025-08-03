@@ -7,8 +7,7 @@ body {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
-}
+    height: auto; }
 
 ul,
 ol {
@@ -17,13 +16,7 @@ ol {
     padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -38,15 +31,13 @@ a {
 }
 
 .header-container {
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
 .page-header {
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow:
-        0 4px 4px 0 rgba(0, 0, 0, 0.25),
-        0 4px 4px 0 rgba(0, 0, 0, 0.25);
+border-bottom: 1px solid #e7e9fc;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .header-nav {
@@ -121,11 +112,10 @@ a {
     gap: 40px;
 
 }
-
 .nav-link {
     color: #2e2f42;
     padding: 24px 0;
-    display: block;
+    display:block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -133,7 +123,7 @@ a {
     position: relative;
 }
 
-.nav-link.current::after {
+.nav-link.current::after{
     content: '';
     position: absolute;
     left: 0;
@@ -266,7 +256,7 @@ a {
 
 }
 
-.list-our-team {
+.list-our-team{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -301,7 +291,7 @@ a {
 }
 
 .nav-link:hover,
-.nav-link:focus,
+.nav-link:focus, 
 .nav-link.current {
     color: #404BBF;
 }
@@ -317,7 +307,7 @@ a {
 
 .nav-item {
     color: #2e2f42;
-
+    
 }
 
 .nav-item :hover,
@@ -333,19 +323,16 @@ a {
 
 }
 
-.contacts-link {
-    color: #434455;
-}
+.contacts-link {color:#434455;}
 
-.contacts-link:hover,
-:focus {
+.contacts-link
+:hover, :focus {
     color: #404bbf;
 }
 
 .benefits {
     padding: 120px 0;
 }
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -387,7 +374,6 @@ a {
 .portfolio {
     margin-bottom: 72px;
 }
-
 .portfolio-ul {
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +403,7 @@ a {
 
 
 
-.icon-box {
+.icon-box{
     display: flex;
     border: solid 1px;
     border-radius: 4px;
@@ -427,6 +413,6 @@ a {
     background-color: #F4F4FD;
 }
 
-.icon-benefits {
-    margin: auto;
+.icon-benefits{
+margin: auto;
 }
