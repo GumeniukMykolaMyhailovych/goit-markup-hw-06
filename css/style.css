@@ -70,7 +70,15 @@ a {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+
 }
+
+
+.people-ofice {
+
+
+}
+
 
 .heads {
     font-size: 36px;
@@ -81,6 +89,8 @@ a {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -94,27 +104,23 @@ a {
 
 .header-logo .logo-part {
     color: #2e2f42;
-}
-
-.header-logo {
-    padding: 24px 0;
     margin-right: 76px;
 }
 
 .head-bckgr {
-
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
+    width: 1440px;
+    height: 600px;
     letter-spacing: 0.02em;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-        (rgba(46, 47, 66, 0.7));
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    padding: 24px 0;
+    margin-right: 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-2/people-office.jpg);
+
 }
+
 
 .nav-list {
     font-weight: 500;
@@ -473,7 +479,6 @@ a {
 .icon-soc-link {
     fill: #f4f4fd;
 }
-
 
 .icon-box {
     display: flex;
