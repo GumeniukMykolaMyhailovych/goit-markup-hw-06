@@ -70,7 +70,6 @@ a {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .heads {
@@ -81,18 +80,6 @@ a {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-}
-
-.people-ofice {
-    color: #ffffff;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .logo {
@@ -107,23 +94,27 @@ a {
 
 .header-logo .logo-part {
     color: #2e2f42;
+}
+
+.header-logo {
+    padding: 24px 0;
     margin-right: 76px;
 }
 
 .head-bckgr {
-    width: 1440px;
-    height: 600px;
-    letter-spacing: 0.02em;
-    padding: 188px 0;
-    text-align: center;
+
     font-size: 56px;
     line-height: 1.07;
-    padding: 24px 0;
-    margin-right: 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-2/people-office.jpg);
-
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+        (rgba(46, 47, 66, 0.7));
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
 
 .nav-list {
     font-weight: 500;
@@ -457,9 +448,12 @@ a {
 
 }
 
-.soc-link-open:hover,
-.soc-link-open:focus {
+.soc-link-open:hover {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.soc-link-open:focus {
     background-color: #404bbf;
 }
 
@@ -482,6 +476,7 @@ a {
 .icon-soc-link {
     fill: #f4f4fd;
 }
+
 
 .icon-box {
     display: flex;
