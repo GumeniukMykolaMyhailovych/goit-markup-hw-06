@@ -516,12 +516,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ::focu
 }
 
-.soc-link-footer:hover,
-.soc-link-open:focus {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #31D0AA;
+.soc-link-footer:hover {
+    background-color: #31D0AA}
 
+
+.soc-link-open:focus {
+    background-color: #404bbf;
 }
