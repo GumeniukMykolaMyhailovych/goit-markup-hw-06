@@ -102,7 +102,7 @@ a {
 }
 
 .head-bckgr {
-    max-width: 1440;
+
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -114,6 +114,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440;
 }
 
 .nav-list {
