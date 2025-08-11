@@ -829,6 +829,7 @@ a {
 
 .input-form {
     display: flex;
+    gap: 24px;
 }
 
 .lable-input-form {
