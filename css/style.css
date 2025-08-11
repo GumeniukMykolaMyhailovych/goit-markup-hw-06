@@ -789,7 +789,7 @@ a {
 
 
 .privacy-policy {
-    color: #e5784d;
+    color: #4d5ae5#e5784d;
 }
 
 .icon-user-send:focus {
@@ -879,7 +879,3 @@ a {
     border-radius: 4px;
 }
 
-.icon-btn-subscrb {
-    margin-left: 16px;
-
-}
