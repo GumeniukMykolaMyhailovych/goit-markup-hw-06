@@ -758,6 +758,7 @@ margin-bottom: 8px;
 
 .form-checkbox {
     margin-bottom: 24px;
+
 }
 
 
@@ -796,5 +797,27 @@ border-radius: 6px;
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
+
+}
+
+.privacy-policy {
+    color: #4d5ae5;
+}
+
+.send-form-backdrop {
+    display: block;
+    max-width: 50%;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: rgba(77, 90, 229, 1);
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
