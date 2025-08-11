@@ -710,10 +710,10 @@ a {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #4D5AE5;
 }
 
-.icon-nm-pn-em:focus {
+
+.input-text-nm-pn-em:focus + .icon-nm-pn-em {
     fill: #4D5AE5;
 }
 
@@ -879,7 +879,10 @@ a {
     border-radius: 4px;
 }
 
+
+
 .icon-btn-subscrb {
     margin-left: 16px;
+    fill: #ffffff;
 
 }
