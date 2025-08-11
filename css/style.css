@@ -788,6 +788,13 @@ width: 20px;
 border-radius: 6px;
 }
 
+.icon-user-send:focus{
+    fill: #4D5AE5
+}
+
 .visually-hidden:checked + .form-check-label > .read-user-privacy {
-background-color: #4d5ae5;
+background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
+
 }
