@@ -645,11 +645,11 @@ a {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop-close-svg:hover {
+.backdrop-btn-close:hover .backdrop-close-svg {
     fill: #ffffff;
 }
 
-.backdrop-close-svg:focus {
+.backdrop-btn-close:focus .backdrop-close-svg {
     fill: #ffffff;
 }
 
