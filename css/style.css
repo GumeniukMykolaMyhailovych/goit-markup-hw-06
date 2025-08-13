@@ -802,7 +802,9 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
 
+.read-user-privacy {
     order: -1;
     margin-right: 8px;
 }
