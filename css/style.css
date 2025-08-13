@@ -774,10 +774,8 @@ a {
 }
 
 .form-checkbox {
-    /* display: flex; */
     margin-bottom: 24px;
-
-    gap: 8px
+    
 }
 
 
@@ -787,6 +785,7 @@ a {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: inline-flex;
+
 }
 
 .read-user-privacy {
@@ -800,11 +799,11 @@ a {
     justify-content: center;
     fill: transparent;
     order: -1;
-    margin-right: 8px;
+    margin-left: 8px;
 }
 
 .icon-user-send {
-    display: block;
+
     height: 8px;
     width: 10px;
     border-radius: 6px;
@@ -813,6 +812,8 @@ a {
 
 .privacy-policy {
     color: rgba(77, 90, 229, 1);
+    margin-left: 4px;
+
 }
 
 .icon-user-send:focus {
