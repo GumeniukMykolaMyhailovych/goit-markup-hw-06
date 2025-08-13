@@ -780,21 +780,15 @@ a {
     gap: 8px
 }
 
-.read-user-privacy {
-    order: -1;
-}
 
 .form-check-label {
     font-size: 12px;
     line-height: 1.17;
-    margin-left: -20px;
-    padding-left: 20px;
+
     letter-spacing: 0.04em;
     color: #8e8f99;
 
     display: flex;
-    align-items: center;
-
 }
 
 .read-user-privacy {
