@@ -775,7 +775,7 @@ a {
 
 .form-checkbox {
     margin-bottom: 24px;
-    
+
 }
 
 
@@ -799,7 +799,7 @@ a {
     justify-content: center;
     fill: transparent;
     order: -1;
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .icon-user-send {
