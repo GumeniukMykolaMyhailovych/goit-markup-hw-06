@@ -789,6 +789,7 @@ a {
     color: #8e8f99;
 
     display: flex;
+    display: inline-flex;
 }
 
 .read-user-privacy {
@@ -802,9 +803,6 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-
-.read-user-privacy {
     order: -1;
     margin-right: 8px;
 }
