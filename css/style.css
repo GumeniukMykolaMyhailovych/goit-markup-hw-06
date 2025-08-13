@@ -776,7 +776,7 @@ a {
 .form-checkbox {
     /* display: flex; */
     margin-bottom: 24px;
-    align-items: center;
+
     gap: 8px
 }
 
