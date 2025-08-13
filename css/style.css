@@ -805,6 +805,8 @@ a {
     fill: transparent;
     order: -1;
     margin-right: 8px;
+
+    display: inline-flex;
 }
 
 .icon-user-send {
