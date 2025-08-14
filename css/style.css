@@ -741,7 +741,7 @@ a {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    color: rgba(46, 47, 66, 1);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
@@ -775,15 +775,16 @@ a {
 
 
 .form-checkbox {
-    margin-bottom: 24;
+    margin-bottom: 24px;
 }
 
 
 .form-check-label {
 
-    font-size: 12;
+    font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+
     color: #8e8f99;
     
 }
@@ -800,17 +801,19 @@ a {
     
     fill: transparent;
 
+    
 }
 
 
 .privacy-policy {
+    
     text-decoration: underline;
-    color: #4d5ae5;
+    color: #e54d4d;
 }
 
 .input-checkbox:checked + .form-check-label > .custom-checkbox {
-    background-color: #31d0aa;
-    fill: #2e2f42;
+    background-color: rgba(64, 75, 191, 1);
+    fill: rgba(244, 244, 253, 1);
 border: none;
 }
 
@@ -906,3 +909,4 @@ border: none;
     fill: #ffffff;
 
 }
+
