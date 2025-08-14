@@ -692,7 +692,7 @@ a {
 .form-label-nm-pn-em {
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.0em;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
@@ -773,69 +773,49 @@ a {
     overflow: hidden;
 }
 
-.form-checkbox {
-    margin-bottom: 24px;
 
+.form-checkbox {
+    margin-bottom: 24;
 }
 
 
 .form-check-label {
-    font-size: 12px;
+
+    font-size: 12;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    position: relative;
-    padding-left: 24px;
-    display: inline-block;
-
+    
 }
 
-.read-user-privacy {
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    align-items: center;
-    justify-content: center;
+    
     fill: transparent;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    margin:0;
 
 }
 
-
-
-
-.icon-user-send{ 
-
-    height: 8px;
-    width: 10px;
-    border-radius: 6px;
-}
 
 
 .privacy-policy {
+    text-decoration: underline;
     color: #4d5ae5;
-
-
 }
 
-.icon-user-send:focus {
-    fill: #4D5AE5;
+.input-checkbox:checked + .form-check-label > .custom-checkbox {
+    background-color: #31d0aa;
+    fill: #2e2f42;
+border: none;
 }
 
-.input-checkbox:checked+.form-check-label .read-user-privacy {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
 
-.read-user-privacy {
-    display: inline-flex;}
 
 
 .btn-send {
