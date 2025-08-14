@@ -808,7 +808,7 @@ a {
 .privacy-policy {
     
     text-decoration: underline;
-    color: #e54d4d;
+    color: rgba(77, 90, 229, 1);
 }
 
 .input-checkbox:checked + .form-check-label > .custom-checkbox {
