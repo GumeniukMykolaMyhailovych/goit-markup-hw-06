@@ -788,6 +788,15 @@ a {
 
 }
 
+
+.form-check-label>.read-user-privacy {
+display: inline-flex;
+}
+
+
+
+
+
 .read-user-privacy {
     width: 16px;
     height: 16px;
@@ -800,7 +809,7 @@ a {
     fill: transparent;
     order: -1;
     margin-right: 8px;
-    display: inline-flex;
+    /* display: inl ine-flex; */
 }
 
 .icon-user-send {
