@@ -784,8 +784,10 @@ a {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: inline-flex;
-    align-items: center;
+    position: relative;
+    padding-left: 24px;
+    display: inline-block;
+
 }
 
 .read-user-privacy {
@@ -798,8 +800,11 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    order: -1;
-    margin-right: 8px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin:0;
 
 }
 
