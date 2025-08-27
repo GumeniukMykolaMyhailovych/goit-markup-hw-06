@@ -1129,6 +1129,13 @@ a {
   }
 }
 
+@media screen and (min-width:1158px) {
+.paragraph-form-suscribe {
+  padding-top: 15px;
+  margin-bottom: -5px;
+}
+}
+
 .input-form {
   display: flex;
   flex-direction: column;
@@ -1183,7 +1190,7 @@ a {
   gap: 16px;
   width: 165px;
   height: 40px;
-  padding: 8px 24px;
+  padding: 8px 0;
   background: #4D5AE5;
   border: none;
   border-radius: 4px;
