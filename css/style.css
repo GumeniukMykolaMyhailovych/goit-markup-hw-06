@@ -346,7 +346,7 @@ ________________________________________________________________________________
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.4),
      rgba(46, 47, 66, 0.7)),
-     url(/pictures/mobile/sect-one/dark-bg.jpg);
+     url(../images/section-hero/dark-bg.jpg);
     background-position: center;
     background-size: cover;
     margin: 0 auto;
