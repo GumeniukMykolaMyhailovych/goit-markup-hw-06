@@ -383,9 +383,9 @@ p {
     gap: 24px;
 }
 
-.benefits-ul-li {
+/* .benefits-ul-li {
     width: calc((100% - 72px) / 4);
-}
+} */
 
 .benefits-ul-li::shadow {}
 
