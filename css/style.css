@@ -275,8 +275,13 @@ margin-bottom: 24px;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 2%;
-    color: rgba(46, 47, 66, 1);
+    color: #434455;
 }
+
+.nav-link {
+    color: #434455;
+}
+
 .nav-link:hover {
     color: #404BBF
 }
@@ -294,10 +299,7 @@ margin-bottom: 24px;
     color: #434455;
     margin-left: auto;
 }
-.tel {
-    color: #4d5ae5;
-    margin-bottom: 24px;
-}
+
 .contacts-link-mob-menu:hover {
     color: #4D5AE5;
 }
@@ -384,55 +386,6 @@ margin-bottom: 24px;
         padding: 188px 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .head-bckgr .container {
-    font-size: 36px;
-    line-height: 111%;
-    max-width: 320px;
-    text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
-    url(../images/section-hero/dark-bg-mob.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 72px 0;
-}
-
-@media screen and (min-width: 768px) {
-    .head-bckgr .container{
-        font-size: 56px;
-        max-width: 768px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url(../images/section-hero/dark-bg-tab.jpg);
-        padding: 112px 0;
-    }
-}
-
-@media screen and (min-width: 1158px) {
-    .head-bckgr .container {
-        line-height: 107%;
-        max-width: 1440px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)), 
-        url(../images/section-hero/dark-bg-desc.jpg);
-        padding: 188px 0;
-    }
-} */
-
 
 @media screen and (min-width: 768px) {
     .effective-solutions {
@@ -783,11 +736,12 @@ border: 1px solid #e7e9fc;
     }
 }
 
-.portfolio-ul-li:hover {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+@media screen and (min-width: 1158px) {
+    .portfolio-ul-li:hover {transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
 }
 
 .portfolio-li-container {
